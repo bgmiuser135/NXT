@@ -9,7 +9,7 @@
 <LastMode ModeID="0" EnableTips="0" EnableGameKeyDT="0" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0"/>
 </Item>
 <Item ApkName="com.android.launcherex" 备注="">
-<StartInfo StartTimes="322"/>
+<StartInfo StartTimes="320"/>
 <LastMode ModeID="0" EnableTips="0" EnableGameKeyDT="0" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0"/>
 </Item>
 <Item ApkName="com.android.packageinstaller" 备注="">
@@ -31,7 +31,7 @@
 <LastMode ModeID="0" EnableTips="0" EnableGameKeyDT="0" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0"/>
 </Item>
 <Item ApkName="com.pubg.imobile" 备注="">
-<StartInfo StartTimes="43"/>
+<StartInfo StartTimes="40"/>
 <LastMode ModeID="3" EnableTips="0" EnableGameKeyDT="1" TipsTransparent="0.500000" Lightness="1.000000" EnableSwitchViewLockMethod="0" DisableSmartMode="1" ExitFullScreenKey="122"/>
 <VersionInfo Version="72" ReqFeatureVer="7" CurFeatureVer="8"/>
 <Switch Name="AdjustMultiples" TextureId="81"/>
@@ -514,11 +514,23 @@
 <KeyMapping ItemName="0" Point_X="0.325769" Point_Y="0.459635" Description="表情0" MiniVisiable="false" MiniDisable="false" AsciiCode="48">
 <SwitchOperation Description="表情0" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp"/>
 </KeyMapping>
+<KeyMapping ItemName="1" Point_X="0.453906" Point_Y="0.933333ription="换1号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="49">
+<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+</KeyMapping>
+<KeyMapping ItemName="2" Point_X="0.544531" Point_Y="0.933333" Description="换2号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="50">
+<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+</KeyMapping>
 <KeyMapping ItemName="3" Point_X="0.586719" Point_Y="0.881944" Description="换2号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="51">
-<SwitchOperation Description="表情(3)" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.606149" Point_Y="0.457031"/>
-<SwitchOperation Description="换3号武器" EnableSwitch="Jump" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
-<SwitchOperation Description="换3号武器" EnableSwitch="Climb" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.619531" Point_Y="0.843056" HideTips="1"/>
-<SwitchOperation Description="换3号武器" EnableSwitch="GetOutCar" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
+<SwitchOperation Description="表情(3)" EnableSwitch="Backpage" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.606149" Point_Y="0.457031"/>
+<SwitchOperation Description="换3号武器" EnableSwitch="Backpage1" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
+<SwitchOperation Description="换3号武器" EnableSwitch="Backpage2" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
+<SwitchOperation Description="换3号武器" EnableSwitch="Backpage3" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="4" Point_X="0.636580" Point_Y="0.851266" Description="字母键划线" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="52" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.637767,0.951477,0)(0.637767,0.949367,32)(0.637767,0.949367,15)(0.637767,0.945148,16)(0.637767,0.939873,16)(0.637767,0.928270,15)(0.637767,0.915612,16)(0.637767,0.895570,15)(0.636580,0.873418,16)(0.636580,0.858650,16)(0.636580,0.851266,0)">
 <SwitchOperation Description="Grenade" EnableSwitch="Grenade" DisableSwitch="XBtn|MapOpenFlag|InSetUp|YouGood" NotifyController="1" TexturePosition="Grenade"/>
@@ -540,12 +552,6 @@
 </KeyMapping>
 <KeyMapping ItemName="9" Point_X="0.325769" Point_Y="0.555990" Description="表情9" MiniVisiable="false" MiniDisable="false" AsciiCode="57">
 <SwitchOperation Description="表情9" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp"/>
-</KeyMapping>
-<KeyMapping ItemName="B" Point_X="0.544531" Point_Y="0.933333" Description="换2号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="66">
-<SwitchOperation Description="表情(2)" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586384" Point_Y="0.372396"/>
-<SwitchOperation Description="换2号武器" EnableSwitch="Jump" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.544531" Point_Y="0.933333" HideTips="1"/>
-<SwitchOperation Description="换2号武器" EnableSwitch="Climb" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.557617" Point_Y="0.929167" HideTips="1"/>
-<SwitchOperation Description="换2号武器" EnableSwitch="GetOutCar" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.544531" Point_Y="0.933333" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="C" Point_X="0.965625" Point_Y="0.918889" Description="下蹲" MiniVisiable="false" MiniDisable="false" AsciiCode="67">
 <SwitchOperation Description="换位置" EnableSwitch="SetUp" DisableSwitch="XBtn|MapOpenFlag|InSetUp|SwimmingDown|SwimDown|Squat|CancelSquat" Point_X="0.965625" Point_Y="0.918889"/>
@@ -655,19 +661,14 @@
 <KeyMapping ItemName="R" Point_X="0.824219" Point_Y="0.952778" Description="换弹" MiniVisiable="false" MiniDisable="false" AsciiCode="82">
 <SwitchOperation Description="换弹" EnableSwitch="Reload" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.824219" Point_Y="0.952778" TexturePosition="Reload"/>
 </KeyMapping>
-<KeyMapping ItemName="U" Point_X="0.186788" Point_Y="0.891481" Description="第1/3人称切换" MiniVisiable="false" MiniDisable="false" AsciiCode="85">
+<KeyMapping ItemName="V" Point_X="0.186788" Point_Y="0.891481" Description="第1/3人称切换" MiniVisiable="false" MiniDisable="false" AsciiCode="86">
 <SwitchOperation Description="第1/3人称切换" EnableSwitch="SetUp" DisableSwitch="InSetUp|Sniper2|Parachute|Parachute2" Point_X="0.186788" Point_Y="0.891481"/>
-</KeyMapping>
-<KeyMapping ItemName="V" Point_X="0.453906" Point_Y="0.933333" Description="换1号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="86">
-<SwitchOperation Description="表情(你好)" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.548316" Point_Y="0.304688"/>
-<SwitchOperation Description="换1号武器" EnableSwitch="Jump" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.453906" Point_Y="0.933333" HideTips="1"/>
-<SwitchOperation Description="换1号武器" EnableSwitch="Climb" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.425000" Point_Y="0.929167" HideTips="1"/>
-<SwitchOperation Description="换1号武器" EnableSwitch="GetOutCar" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.453906" Point_Y="0.933333" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="Z" Point_X="0.957812" Point_Y="0.927778" Description="趴下" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" AsciiCode="90">
 <SwitchOperation Description="趴下" EnableSwitch="Fall" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.957812" Point_Y="0.927778"/>
 <SwitchOperation Description="取消趴下" EnableSwitch="CancelFall" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.957812" Point_Y="0.927778"/>
 </KeyMapping>
+<KeyMapping ItemName="N5" Point_X="0.736936" Point_Y="0.770613" Description="字母键" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="101"/>
 <KeyMapping ItemName="=" Point_X="0.881250" Point_Y="0.193056" Description="加速跑" MiniVisiable="false" MiniDisable="false" AsciiCode="187">
 <SwitchOperation Description="表情=" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.384334" Point_Y="0.294271"/>
 <SwitchOperation Description="加速跑" EnableSwitch="Run" DisableSwitch="XBtn|MapOpenFlag|InSetUp" TexturePosition="Run"/>
@@ -712,7 +713,7 @@
 <SwitchOperation Description="Free view" EnableSwitch="Eye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="Free view" EnableSwitch="OpenEye" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="Click with Scroll Wheel" Point_X="0.461401" Point_Y="0.928118" Description="滚轮切枪" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelClick" Click_X="0.544531" Click_Y="0.933333">
+<KeyMappingEx ItemName="Click with Scroll Wheel" Point_X="0.453906" Point_Y="0.933333" Description="滚轮切枪" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="WheelClick" Click_X="0.544531" Click_Y="0.933333">
 <SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 <SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="XBtn|MapOpenFlag|InSetUp|AdjustMultiples|AdjustMultiplesPressed"/>
 <SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="XBtn|MapOpenFlag|InSetUp|AdjustMultiples|AdjustMultiplesPressed"/>
@@ -729,7 +730,7 @@
 <SwitchOperation Description="第一种开车模式" EnableSwitch="DriveMode1"/>
 <SwitchOperation Description="第一种开车模式_按着" EnableSwitch="DriveMode1Press"/>
 </KeyMappingEx>
-<KeyMappingEx ItemName="N" Point_X="0.437500" Point_Y="0.879167" Description="单发/连发" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="MultiPoint" AsciiCode="78">
+<KeyMappingEx ItemName="B" Point_X="0.437500" Point_Y="0.879167" Description="单发/连发" MiniVisiable="false" MiniDisable="false" HideTipsAlways="1" Type="MultiPoint" AsciiCode="66">
 <Point Point_X="0.542969" Point_Y="0.879167" Delay="0" IsMutex="0" MutexVal="0" IsRepeat="0"/>
 <SwitchOperation Description="单发/连发" EnableSwitch="Reload" DisableSwitch="XBtn|MapOpenFlag|InSetUp"/>
 </KeyMappingEx>
