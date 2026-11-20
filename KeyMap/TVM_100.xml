@@ -515,22 +515,22 @@
 <SwitchOperation Description="表情0" EnableSwitch="YouGood|EmojiPressed" DisableSwitch="MapOpenFlag|InSetUp"/>
 </KeyMapping>
 <KeyMapping ItemName="1" Point_X="0.453906" Point_Y="0.933333ription="换1号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="49">
-<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
-<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
-<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
-<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
+<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.453906" Point_Y="0.933333"/>
 </KeyMapping>
 <KeyMapping ItemName="2" Point_X="0.544531" Point_Y="0.933333" Description="换2号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="50">
-<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
-<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
-<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
-<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="背包" EnableSwitch="Backpage" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="1级背包" EnableSwitch="Backpage1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="2级背包" EnableSwitch="Backpage2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
+<SwitchOperation Description="3级背包" EnableSwitch="Backpage3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.544531" Point_Y="0.933333"/>
 </KeyMapping>
 <KeyMapping ItemName="3" Point_X="0.586719" Point_Y="0.881944" Description="换2号武器" MiniVisiable="false" MiniDisable="false" AsciiCode="51">
-<SwitchOperation Description="表情(3)" EnableSwitch="Backpage" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.606149" Point_Y="0.457031"/>
-<SwitchOperation Description="换3号武器" EnableSwitch="Backpage1" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
-<SwitchOperation Description="换3号武器" EnableSwitch="Backpage2" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
-<SwitchOperation Description="换3号武器" EnableSwitch="Backpage3" DisableSwitch="MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
+<SwitchOperation Description="表情(3)" EnableSwitch="Backpage" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.606149" Point_Y="0.457031"/>
+<SwitchOperation Description="换3号武器" EnableSwitch="Backpage1" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
+<SwitchOperation Description="换3号武器" EnableSwitch="Backpage2" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
+<SwitchOperation Description="换3号武器" EnableSwitch="Backpage3" DisableSwitch="XBtn|MapOpenFlag|InSetUp" Point_X="0.586719" Point_Y="0.881944" HideTips="1"/>
 </KeyMapping>
 <KeyMapping ItemName="4" Point_X="0.636580" Point_Y="0.851266" Description="字母键划线" MiniVisiable="true" MiniDisable="false" AutoCancel="0" AsciiCode="52" KeyMouseSlideType="1" KeyMouseSlidePoints="(0.637767,0.951477,0)(0.637767,0.949367,32)(0.637767,0.949367,15)(0.637767,0.945148,16)(0.637767,0.939873,16)(0.637767,0.928270,15)(0.637767,0.915612,16)(0.637767,0.895570,15)(0.636580,0.873418,16)(0.636580,0.858650,16)(0.636580,0.851266,0)">
 <SwitchOperation Description="Grenade" EnableSwitch="Grenade" DisableSwitch="XBtn|MapOpenFlag|InSetUp|YouGood" NotifyController="1" TexturePosition="Grenade"/>
